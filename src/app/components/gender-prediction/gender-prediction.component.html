@@ -1,0 +1,7 @@
+<mat-card>
+  <mat-card-title>Gender Prediction</mat-card-title>
+  <mat-card-content>
+    <ng-container *ngIf="param$ | async as item"><p>Based on your name, you're {{ item.gender }} </p></ng-container>
+
+  </mat-card-content>
+</mat-card>
